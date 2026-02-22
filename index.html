@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Competition Images</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Quiz Competition Images</h1>
+            <p class="subtitle">View all images from daily quiz competitions</p>
+        </header>
+
+        <!-- Controls Section -->
+        <div class="controls">
+            <!-- Search Bar -->
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search by question, topic, or description..." />
+                <span class="search-icon">🔍</span>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Images</button>
+                <button class="filter-btn" data-filter="today">Today</button>
+                <button class="filter-btn" data-filter="week">This Week</button>
+                <button class="filter-btn" data-filter="month">This Month</button>
+            </div>
+
+            <!-- Sort Options -->
+            <div class="sort-container">
+                <label for="sortSelect">Sort by:</label>
+                <select id="sortSelect">
+                    <option value="newest">Newest First</option>
+                    <option value="oldest">Oldest First</option>
+                    <option value="topic">Topic (A-Z)</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Stats Display -->
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number" id="totalImages">0</span>
+                <span class="stat-label">Total Images</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="displayedImages">0</span>
+                <span class="stat-label">Displayed</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="totalDays">0</span>
+                <span class="stat-label">Days of Quizzes</span>
+            </div>
+        </div>
+
+        <!-- Image Gallery -->
+        <div class="gallery" id="gallery">
+            <!-- Images will be loaded here dynamically -->
+        </div>
+
+        <!-- No Results Message -->
+        <div class="no-results" id="noResults" style="display: none;">
+            <p>No images found matching your criteria</p>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Loading images...</p>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">&times;</button>
+            <button class="lightbox-nav lightbox-prev" id="lightboxPrev">‹</button>
+            <button class="lightbox-nav lightbox-next" id="lightboxNext">›</button>
+            
+            <img class="lightbox-image" id="lightboxImage" src="" alt="">
+            
+            <div class="lightbox-info">
+                <div class="lightbox-details">
+                    <h3 id="lightboxQuestion"></h3>
+                    <p class="lightbox-meta">
+                        <span id="lightboxDate"></span> • 
+                        <span id="lightboxTopic"></span>
+                    </p>
+                    <p id="lightboxDescription"></p>
+                </div>
+                <div class="lightbox-actions">
+                    <button class="btn-download" id="btnDownload">
+                        <span>⬇</span> Download
+                    </button>
+                    <span class="lightbox-counter" id="lightboxCounter"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

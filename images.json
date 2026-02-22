@@ -1,0 +1,60 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "date": "2026-01-12",
+      "question": "Look at the image and identify the person.",
+      "topic": "Local and International Affairs",
+      "description": "MP - St. Mary Central",
+      "imageUrl": "images/2026-01-12/Omar Newell.jpeg"
+    },
+    {
+      "id": 2,
+      "date": "2026-01-12",
+      "question": "Look at the image and identify the person.",
+      "topic": "Local and International Affairs",
+      "description": "MP - St. Elizabeth North West",
+      "imageUrl": "images/2026-01-12/Andrew Morris.jpeg"
+    },
+    {
+      "id": 3,
+      "date": "2026-01-12",
+      "question": "Look at the image and identify the person.",
+      "topic": "Theatre and Cinema",
+      "description": "American Actor",
+      "imageUrl": "images/2026-01-12/Brad Pitt.jpeg"
+    },
+    {
+      "id": 4,
+      "date": "2026-01-12",
+      "question": "Look at the image and identify the person.",
+      "topic": "Theatre and Cinema",
+      "description": "American Actor",
+      "imageUrl": "images/2026-01-12/Leonardo DiCaprio.jpeg"
+    },
+    {
+      "id": 5,
+      "date": "2026-01-12",
+      "question": "Look at the image and identify the person.",
+      "topic": "Local and International Affairs",
+      "description": "United States Secretary of Transportation",
+      "imageUrl": "images/2026-01-12/Sean Duffy.jpeg"
+    },
+    {
+      "id": 6,
+      "date": "2026-01-12",
+      "question": "Look at the image and identify the person.",
+      "topic": "Theatre and Cinema",
+      "description": "American Actor",
+      "imageUrl": "images/2026-01-12/Marlon Brando.jpeg"
+    },
+    {
+      "id": 7,
+      "date": "2026-01-12",
+      "question": "Look at the image and identify the person.",
+      "topic": "Sports",
+      "description": "Barbadian Cricketer",
+      "imageUrl": "images/2026-01-12/Shai Hope.jpeg"
+    }
+  ]
+}
