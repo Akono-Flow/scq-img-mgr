@@ -271,6 +271,78 @@
       "subject": "Sports",
       "description": "American Former Sprinter",
       "imageUrl": "images/2026-01-15/Carmelita Jeter.jpeg"
+    },
+    {
+      "id": 35,
+      "date": "2026-01-16",
+      "name": "Dwayne Vaz",
+      "subject": "Local and International Affairs",
+      "description": "MP -Westmoreland Central",
+      "imageUrl": "images/2026-01-16/Dwayne Vaz.jpeg"
+    },
+    {
+      "id": 36,
+      "date": "2026-01-16",
+      "name": "Kenneth Russell",
+      "subject": "Local and International Affairs",
+      "description": "MP - St. Ann South East",
+      "imageUrl": "images/2026-01-16/Kenneth Russell.jpeg"
+    },
+    {
+      "id": 37,
+      "date": "2026-01-16",
+      "name": "Kevin Spacey",
+      "subject": "Theatre and Cinema",
+      "description": "American Actor",
+      "imageUrl": "images/2026-01-16/Kevin Spacey.jpeg"
+    },
+    {
+      "id": 38,
+      "date": "2026-01-16",
+      "name": "Johnny Depp",
+      "subject": "Theatre and Cinema",
+      "description": "American Actor",
+      "imageUrl": "images/2026-01-16/Johnny Depp.jpeg"
+    },
+    {
+      "id": 39,
+      "date": "2026-01-16",
+      "name": "Kane Williamson",
+      "subject": "Sports",
+      "description": "New Zealand Cricketer",
+      "imageUrl": "images/2026-01-16/Kane Williamson.jpeg"
+    },
+    {
+      "id": 40,
+      "date": "2026-01-16",
+      "name": "Ben Stokes",
+      "subject": "Sports",
+      "description": "English Cricketer",
+      "imageUrl": "images/2026-01-16/Ben Stokes.jpeg"
+    },
+    {
+      "id": 41,
+      "date": "2026-01-16",
+      "name": "Mark Carney",
+      "subject": "Local and International Affairs",
+      "description": "PM - Canada",
+      "imageUrl": "images/2026-01-16/Mark Carney.jpeg"
+    },
+    {
+      "id": 42,
+      "date": "2026-01-16",
+      "name": "Gregory Peck",
+      "subject": "Theatre and Cinema",
+      "description": "American Actor",
+      "imageUrl": "images/2026-01-16/Gregory Peck.jpeg"
+    },
+    {
+      "id": 43,
+      "date": "2026-01-16",
+      "name": "Rocky Marciano",
+      "subject": "Sports",
+      "description": "American Professional Boxer",
+      "imageUrl": "images/2026-01-16/Rocky Marciano.jpeg"
     }
   ]
 }
