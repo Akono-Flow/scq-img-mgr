@@ -199,6 +199,78 @@
       "subject": "Sports",
       "description": "Canadian Former Athlete",
       "imageUrl": "images/2026-01-14/Ben Johnson.jpeg"
+    },
+    {
+      "id": 26,
+      "date": "2026-01-15",
+      "name": "Eswatini",
+      "subject": "Local and International Affairs",
+      "description": "Flag of Eswatini",
+      "imageUrl": "images/2026-01-15/Eswatini.jpeg"
+    },
+    {
+      "id": 27,
+      "date": "2026-01-15",
+      "name": "Mongolia",
+      "subject": "Local and International Affairs",
+      "description": "Flag of Mongolia",
+      "imageUrl": "images/2026-01-15/Mongolia.jpeg"
+    },
+    {
+      "id": 28,
+      "date": "2026-01-15",
+      "name": "Al Pacino",
+      "subject": "Theatre and Cinema",
+      "description": "American Actor",
+      "imageUrl": "images/2026-01-15/Al Pacino.jpeg"
+    },
+    {
+      "id": 29,
+      "date": "2026-01-15",
+      "name": "Robert Duvall",
+      "subject": "Theatre and Cinema",
+      "description": "American Actor",
+      "imageUrl": "images/2026-01-15/Robert Duvall.jpeg"
+    },
+    {
+      "id": 30,
+      "date": "2026-01-15",
+      "name": "Hasely Crawford",
+      "subject": "Sports",
+      "description": "First Olympic Champion from Trinidad and Tobago",
+      "imageUrl": "images/2026-01-15/Hasely Crawford.jpeg"
+    },
+    {
+      "id": 31,
+      "date": "2026-01-15",
+      "name": "Ato Boldon",
+      "subject": "Sports",
+      "description": "Trinidad and Tobago Former Sprinter",
+      "imageUrl": "images/2026-01-15/Ato Boldon.jpeg"
+    },
+    {
+      "id": 32,
+      "date": "2026-01-15",
+      "name": "Cyril Ramaphosa",
+      "subject": "Local and International Affairs",
+      "description": "President of South Africa",
+      "imageUrl": "images/2026-01-15/Cyril Ramaphosa.jpeg"
+    },
+    {
+      "id": 33,
+      "date": "2026-01-15",
+      "name": "Sigourney Weaver",
+      "subject": "Theatre and Cinema",
+      "description": "American Actress",
+      "imageUrl": "images/2026-01-15/Sigourney Weaver.jpeg"
+    },
+    {
+      "id": 34,
+      "date": "2026-01-15",
+      "name": "Carmelita Jeter",
+      "subject": "Sports",
+      "description": "American Former Sprinter",
+      "imageUrl": "images/2026-01-15/Carmelita Jeter.jpeg"
     }
   ]
 }
