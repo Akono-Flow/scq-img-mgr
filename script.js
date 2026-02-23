@@ -16,9 +16,9 @@ const elements = {
     noResults: document.getElementById('noResults'),
     lightbox: document.getElementById('lightbox'),
     lightboxImage: document.getElementById('lightboxImage'),
-    lightboxQuestion: document.getElementById('lightboxQuestion'),
+    lightboxName: document.getElementById('lightboxName'),
     lightboxDate: document.getElementById('lightboxDate'),
-    lightboxTopic: document.getElementById('lightboxTopic'),
+    lightboxSubject: document.getElementById('lightboxSubject'),
     lightboxDescription: document.getElementById('lightboxDescription'),
     lightboxCounter: document.getElementById('lightboxCounter'),
     lightboxClose: document.getElementById('lightboxClose'),
@@ -126,14 +126,14 @@ function createGalleryItem(image, index) {
         <img 
             class="gallery-item-image lazy" 
             data-src="${image.imageUrl}" 
-            alt="${image.question}"
+            alt="${image.name}"
             loading="lazy"
         >
         <div class="gallery-item-content">
-            <h3 class="gallery-item-question">${escapeHtml(image.question)}</h3>
+            <h3 class="gallery-item-name">${escapeHtml(image.name)}</h3>
             <div class="gallery-item-meta">
                 <span class="gallery-item-date">📅 ${formattedDate}</span>
-                <span class="gallery-item-topic">${escapeHtml(image.topic)}</span>
+                <span class="gallery-item-subject">${escapeHtml(image.subject)}</span>
             </div>
             <p class="gallery-item-description">${escapeHtml(image.description)}</p>
         </div>
@@ -172,8 +172,8 @@ function handleSearch(e) {
     const searchTerm = e.target.value.toLowerCase().trim();
     
     filteredImages = allImages.filter(image => {
-        return image.question.toLowerCase().includes(searchTerm) ||
-               image.topic.toLowerCase().includes(searchTerm) ||
+        return image.name.toLowerCase().includes(searchTerm) ||
+               image.subject.toLowerCase().includes(searchTerm) ||
                image.description.toLowerCase().includes(searchTerm);
     });
     
@@ -220,8 +220,8 @@ function handleFilter(e) {
     const searchTerm = elements.searchInput.value.toLowerCase().trim();
     if (searchTerm) {
         filteredImages = filteredImages.filter(image => {
-            return image.question.toLowerCase().includes(searchTerm) ||
-                   image.topic.toLowerCase().includes(searchTerm) ||
+            return image.name.toLowerCase().includes(searchTerm) ||
+                   image.subject.toLowerCase().includes(searchTerm) ||
                    image.description.toLowerCase().includes(searchTerm);
         });
     }
@@ -242,8 +242,12 @@ function handleSort(e) {
             filteredImages.sort((a, b) => a.dateObj - b.dateObj);
             break;
             
-        case 'topic':
-            filteredImages.sort((a, b) => a.topic.localeCompare(b.topic));
+        case 'subject':
+            filteredImages.sort((a, b) => a.subject.localeCompare(b.subject));
+            break;
+            
+        case 'name':
+            filteredImages.sort((a, b) => a.name.localeCompare(b.name));
             break;
     }
     
@@ -289,9 +293,9 @@ function updateLightbox() {
     const image = filteredImages[currentLightboxIndex];
     
     elements.lightboxImage.src = image.imageUrl;
-    elements.lightboxQuestion.textContent = image.question;
+    elements.lightboxName.textContent = image.name;
     elements.lightboxDate.textContent = formatDate(image.dateObj);
-    elements.lightboxTopic.textContent = image.topic;
+    elements.lightboxSubject.textContent = image.subject;
     elements.lightboxDescription.textContent = image.description;
     elements.lightboxCounter.textContent = `${currentLightboxIndex + 1} / ${filteredImages.length}`;
 }
@@ -316,7 +320,7 @@ function downloadImage() {
     const image = filteredImages[currentLightboxIndex];
     const link = document.createElement('a');
     link.href = image.imageUrl;
-    link.download = `quiz-image-${image.date}-${currentLightboxIndex + 1}.jpg`;
+    link.download = `${image.name}.jpeg`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
