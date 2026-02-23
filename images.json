@@ -415,6 +415,78 @@
       "subject": "Sports",
       "description": "Ivorian Footballer",
       "imageUrl": "images/2026-01-17/Didier Drogba.jpeg"
+    },
+    {
+      "id": 53,
+      "date": "2026-01-19",
+      "name": "Major General Antony Anderson",
+      "subject": "Local and International Affairs",
+      "description": "Jamaican Ambassador to USA",
+      "imageUrl": "images/2026-01-19/Major General Antony Anderson.jpeg"
+    },
+    {
+      "id": 54,
+      "date": "2026-01-19",
+      "name": "Alexander Williams",
+      "subject": "Local and International Affairs",
+      "description": "Jamaican High Commissioner to UK",
+      "imageUrl": "images/2026-01-19/Alexander Williams.jpeg"
+    },
+    {
+      "id": 55,
+      "date": "2026-01-19",
+      "name": "Julia Roberts",
+      "subject": "Theatre and Cinema",
+      "description": "American Actress",
+      "imageUrl": "images/2026-01-19/Julia Roberts.jpeg"
+    },
+    {
+      "id": 56,
+      "date": "2026-01-19",
+      "name": "Eva Victor",
+      "subject": "Theatre and Cinema",
+      "description": "French Actor",
+      "imageUrl": "images/2026-01-19/Eva Victor.jpeg"
+    },
+    {
+      "id": 57,
+      "date": "2026-01-19",
+      "name": "Jeff Dujon",
+      "subject": "Sports",
+      "description": "Jamaican Former Cricketer",
+      "imageUrl": "images/2026-01-19/Jeff Dujon.jpeg"
+    },
+    {
+      "id": 58,
+      "date": "2026-01-19",
+      "name": "Augustine Logie",
+      "subject": "Sports",
+      "description": "Trinidadian Former Cricketer",
+      "imageUrl": "images/2026-01-19/Augustine Logie.jpeg"
+    },
+    {
+      "id": 59,
+      "date": "2026-01-19",
+      "name": "Bernardo Arévalo",
+      "subject": "Local and International Affairs",
+      "description": "President - Guatemala",
+      "imageUrl": "images/2026-01-19/Bernardo Arévalo.jpeg"
+    },
+    {
+      "id": 60,
+      "date": "2026-01-19",
+      "name": "Renate Reinsve",
+      "subject": "Theatre and Cinema",
+      "description": "Norwegian Actress",
+      "imageUrl": "images/2026-01-19/Renate Reinsve.jpeg"
+    },
+    {
+      "id": 61,
+      "date": "2026-01-19",
+      "name": "Thierry Henry",
+      "subject": "Sports",
+      "description": "French Former Footballer",
+      "imageUrl": "images/2026-01-19/Thierry Henry.jpeg"
     }
   ]
 }
