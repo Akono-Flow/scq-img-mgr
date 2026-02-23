@@ -127,6 +127,78 @@
       "subject": "Sports",
       "description": "Guyanese Cricketer",
       "imageUrl": "images/2026-01-13/Tevin Imlach.jpeg"
+    },
+    {
+      "id": 17,
+      "date": "2026-01-14",
+      "name": "Duane Smith",
+      "subject": "Local and International Affairs",
+      "description": "MP - St. Andrew North West",
+      "imageUrl": "images/2026-01-14/Duane Smith.jpeg"
+    },
+    {
+      "id": 18,
+      "date": "2026-01-14",
+      "name": "Heroy Clarke",
+      "subject": "Local and International Affairs",
+      "description": "MP - St. James Central",
+      "imageUrl": "images/2026-01-14/Heroy Clarke.jpeg"
+    },
+    {
+      "id": 19,
+      "date": "2026-01-14",
+      "name": "Mariska Hargitay",
+      "subject": "Theatre and Cinema",
+      "description": "American Actress",
+      "imageUrl": "images/2026-01-14/Mariska Hargitay.jpeg"
+    },
+    {
+      "id": 20,
+      "date": "2026-01-14",
+      "name": "Christopher Meloni",
+      "subject": "Theatre and Cinema",
+      "description": "American Actor",
+      "imageUrl": "images/2026-01-14/Christopher Meloni.jpeg"
+    },
+    {
+      "id": 21,
+      "date": "2026-01-14",
+      "name": "Carl Lewis",
+      "subject": "Sports",
+      "description": "American Former Athlete",
+      "imageUrl": "images/2026-01-14/Carl Lewis.jpeg"
+    },
+    {
+      "id": 22,
+      "date": "2026-01-14",
+      "name": "Gail Devers",
+      "subject": "Sports",
+      "description": "American Former Athlete",
+      "imageUrl": "images/2026-01-14/Gail Devers.jpeg"
+    },
+    {
+      "id": 23,
+      "date": "2026-01-14",
+      "name": "Hun Manet",
+      "subject": "Local and International Affairs",
+      "description": "PM - Cambodia",
+      "imageUrl": "images/2026-01-14/Hun Manet.jpeg"
+    },
+    {
+      "id": 24,
+      "date": "2026-01-14",
+      "name": "Paul Mescal",
+      "subject": "Theatre and Cinema",
+      "description": "Irish Actor - Gladiator II",
+      "imageUrl": "images/2026-01-14/Paul Mescal.jpeg"
+    },
+    {
+      "id": 25,
+      "date": "2026-01-14",
+      "name": "Ben Johnson",
+      "subject": "Sports",
+      "description": "Canadian Former Athlete",
+      "imageUrl": "images/2026-01-14/Ben Johnson.jpeg"
     }
   ]
 }
