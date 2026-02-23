@@ -46,7 +46,8 @@ async function loadImages() {
         
         // Process dates
         allImages.forEach(img => {
-            img.dateObj = new Date(img.date);
+            const [year, month, day] = img.date.split('-');
+            img.dateObj = new Date(year, month - 1, day);
         });
         
         filteredImages = [...allImages];
