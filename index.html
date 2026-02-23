@@ -18,7 +18,7 @@
         <div class="controls">
             <!-- Search Bar -->
             <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search by question, topic, or description..." />
+                <input type="text" id="searchInput" placeholder="Search by name, subject, or description..." />
                 <span class="search-icon">🔍</span>
             </div>
 
@@ -36,7 +36,8 @@
                 <select id="sortSelect">
                     <option value="newest">Newest First</option>
                     <option value="oldest">Oldest First</option>
-                    <option value="topic">Topic (A-Z)</option>
+                    <option value="subject">Subject (A-Z)</option>
+                    <option value="name">Name (A-Z)</option>
                 </select>
             </div>
         </div>
@@ -85,10 +86,10 @@
             
             <div class="lightbox-info">
                 <div class="lightbox-details">
-                    <h3 id="lightboxQuestion"></h3>
+                    <h3 id="lightboxName"></h3>
                     <p class="lightbox-meta">
                         <span id="lightboxDate"></span> • 
-                        <span id="lightboxTopic"></span>
+                        <span id="lightboxSubject"></span>
                     </p>
                     <p id="lightboxDescription"></p>
                 </div>
