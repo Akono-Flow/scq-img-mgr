@@ -55,6 +55,78 @@
       "subject": "Sports",
       "description": "Barbadian Cricketer",
       "imageUrl": "images/2026-01-12/Shai Hope.jpeg"
+    },
+    {
+      "id": 8,
+      "date": "2026-01-13",
+      "name": "Aubyn Hill",
+      "subject": "Local and International Affairs",
+      "description": "Government Senator and Minister",
+      "imageUrl": "images/2026-01-13/Aubyn Hill.jpeg"
+    },
+    {
+      "id": 9,
+      "date": "2026-01-13",
+      "name": "Kamina Johnson-Smith",
+      "subject": "Local and International Affairs",
+      "description": "Government Senator and Minister",
+      "imageUrl": "images/2026-01-13/Kamina Johnson-Smith.jpeg"
+    },
+    {
+      "id": 10,
+      "date": "2026-01-13",
+      "name": "Ben Kingsley",
+      "subject": "Theatre and Cinema",
+      "description": "English Actor",
+      "imageUrl": "images/2026-01-13/Ben Kingsley.jpeg"
+    },
+    {
+      "id": 11,
+      "date": "2026-01-13",
+      "name": "Pierce Brosnan",
+      "subject": "Theatre and Cinema",
+      "description": "Irish Actor - James Bond",
+      "imageUrl": "images/2026-01-13/Pierce Brosnan.jpeg"
+    },
+    {
+      "id": 12,
+      "date": "2026-01-13",
+      "name": "Igor Thiago",
+      "subject": "Sports",
+      "description": "Brazilian Footballer for Brentford",
+      "imageUrl": "images/2026-01-13/Igor Thiago.jpeg"
+    },
+    {
+      "id": 13,
+      "date": "2026-01-13",
+      "name": "Jean-Philippe Mateta",
+      "subject": "Sports",
+      "description": "French Footballer for Crystal Palace",
+      "imageUrl": "images/2026-01-13/Jean-Philippe Mateta.jpeg"
+    },
+    {
+      "id": 14,
+      "date": "2026-01-13",
+      "name": "Anutin Charnvirakul",
+      "subject": "Local and International Affairs",
+      "description": "PM - Thailand",
+      "imageUrl": "images/2026-01-13/Anutin Charnvirakul.jpeg"
+    },
+    {
+      "id": 15,
+      "date": "2026-01-13",
+      "name": "Lucille Ball",
+      "subject": "Theatre and Cinema",
+      "description": "American Actress",
+      "imageUrl": "images/2026-01-13/Lucille Ball.jpeg"
+    },
+    {
+      "id": 16,
+      "date": "2026-01-13",
+      "name": "Tevin Imlach",
+      "subject": "Sports",
+      "description": "Guyanese Cricketer",
+      "imageUrl": "images/2026-01-13/Tevin Imlach.jpeg"
     }
   ]
 }
