@@ -343,6 +343,78 @@
       "subject": "Sports",
       "description": "American Professional Boxer",
       "imageUrl": "images/2026-01-16/Rocky Marciano.jpeg"
+    },
+    {
+      "id": 44,
+      "date": "2026-01-16",
+      "name": "Diahann Gordon-Harrison",
+      "subject": "Local and International Affairs",
+      "description": "Children's Advocate",
+      "imageUrl": "images/2026-01-16/Diahann Gordon-Harrison.jpeg"
+    },
+    {
+      "id": 45,
+      "date": "2026-01-16",
+      "name": "Mickel Jackson",
+      "subject": "Local and International Affairs",
+      "description": "Executive Director - Jamaicans For Justice (JFJ)",
+      "imageUrl": "images/2026-01-16/Mickel Jackson.jpeg"
+    },
+    {
+      "id": 46,
+      "date": "2026-01-16",
+      "name": "Jennifer Lawrence",
+      "subject": "Theatre and Cinema",
+      "description": "American Actress",
+      "imageUrl": "images/2026-01-16/Jennifer Lawrence.jpeg"
+    },
+    {
+      "id": 47,
+      "date": "2026-01-16",
+      "name": "Tessa Thompson",
+      "subject": "Theatre and Cinema",
+      "description": "American Actress",
+      "imageUrl": "images/2026-01-16/Tessa Thompson.jpeg"
+    },
+    {
+      "id": 48,
+      "date": "2026-01-16",
+      "name": "Cameron Green",
+      "subject": "Sports",
+      "description": "Australian Cricketer",
+      "imageUrl": "images/2026-01-16/Cameron Green.jpeg"
+    },
+    {
+      "id": 49,
+      "date": "2026-01-16",
+      "name": "Travis Head",
+      "subject": "Sports",
+      "description": "Australian Cricketer",
+      "imageUrl": "images/2026-01-16/Travis Head.jpeg"
+    },
+    {
+      "id": 50,
+      "date": "2026-01-16",
+      "name": "Bart De Wever",
+      "subject": "Local and International Affairs",
+      "description": "PM - Belgium",
+      "imageUrl": "images/2026-01-16/Bart De Wever.jpeg"
+    },
+    {
+      "id": 51,
+      "date": "2026-01-16",
+      "name": "Harrison Ford",
+      "subject": "Theatre and Cinema",
+      "description": "American Actor - Indiana Jones",
+      "imageUrl": "images/2026-01-16/Harrison Ford.jpeg"
+    },
+    {
+      "id": 52,
+      "date": "2026-01-16",
+      "name": "Didier Drogba",
+      "subject": "Sports",
+      "description": "Ivorian Footballer",
+      "imageUrl": "images/2026-01-16/Didier Drogba.jpeg"
     }
   ]
 }
